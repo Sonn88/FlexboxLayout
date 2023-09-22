@@ -41,3 +41,5 @@ flex: 3;
 ; order: 3;
     flex: 1;
 }
+.child{flex: 1;
+}
