@@ -43,3 +43,37 @@ flex: 3;
 }
 .child{flex: 1;
 }
+.purple {
+    background-color: purple;
+flex: 1;
+}
+.orange {
+    background-color: orange;
+flex: 1;
+}
+.example4 {
+    flex-direction: column;
+    display:flex;
+
+}
+.blue{
+    background-color: blue;
+    height:15px; width:50px;
+    flex:1;
+}
+.column {
+    background-color: lightblue;
+    flex-wrap: wrap;
+    height: 5px;
+margin: 3px;
+    padding-right:50px ;
+    flex:1;
+    border: darkblue solid 3px;
+}
+.blue1{ border: darkblue solid 3px;
+    background-color: blue;
+    flex:1;
+}
+.column1 {
+    background-color: lightblue; height: 20px; width: 50px; flex:1;
+}
