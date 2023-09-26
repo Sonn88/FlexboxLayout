@@ -78,11 +78,48 @@ margin: 3px;
     background-color: lightblue; height: 20px; width: 50px; flex:1;
 }
 .bar{
+    flex-direction: column;
 
 }
 .yellow1 {
     background-color: yellow;
-    border: khaki  solid 10px;
-    padding: 2px;
+    height: 15px;
+    flex: 1;
 
+    padding: 10px;
+    border: khaki  solid 3px;
+margin: 10px;
 }
+
+.bar1{ display: flex ;flex-direction: row; flex: 6; justify-content: space-around}
+
+.blob{
+    background-color: cornflowerblue;width: 15%; height: 150px;
+}
+.example6{
+    flex-direction: row;
+}
+.red7{
+    margin: 20px; border: crimson solid 3px;
+    background-color: red; height: 200px;width: 450px;
+}
+.bluee{
+    flex-direction: column;
+}
+.split{background-color:blue;
+width: 500px;
+height:100px; }
+.two
+{ flex-direction: column;
+ margin: 2px;
+    display: flex;
+    flex: 1;
+justify-content: space-between}
+
+.mini1{
+    background-color: lightblue;
+    height: 50px; width:250px; margin: 2px;
+}
+mini2{ flex-direction: row; display: flex }
+.lime{background-color: lime;
+    height:25px; width:250px ; margin: 2px }
